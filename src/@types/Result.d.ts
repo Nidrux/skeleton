@@ -1,0 +1,1 @@
+export type Result<T, E extends Error = Error> = | {succes: true, result: T} | {succes: false, result: E};
